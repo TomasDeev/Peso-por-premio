@@ -158,7 +158,7 @@ const App = () => {
             : 'bg-transparent py-6 md:py-10'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+        <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-10 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <CompanyLogo size="md" />
             <div className="hidden md:flex flex-col -space-y-1">
@@ -195,13 +195,13 @@ const App = () => {
         </div>
       </nav>
 
-      <section className="relative pt-8 md:pt-16 pb-24 px-6 overflow-hidden">
+      <section className="relative pt-8 md:pt-16 pb-24 px-4 sm:px-6 lg:px-10 overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 w-full h-full opacity-40 pointer-events-none">
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-yellow-600/10 rounded-full blur-[120px]"></div>
           <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-yellow-600/10 rounded-full blur-[100px]"></div>
         </div>
 
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-10 relative z-10 text-center lg:text-left">
             <div className="flex items-center justify-center lg:justify-start gap-3">
               <div className="h-[2px] w-12 bg-yellow-500"></div>
@@ -294,7 +294,7 @@ const App = () => {
       </section>
 
       <section className="py-24 bg-white/[0.01] border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="mb-16 text-center md:text-left">
             <p className="text-yellow-500 font-black tracking-[0.4em] text-[10px] uppercase mb-2">
               Próximas Oportunidades
@@ -353,8 +353,8 @@ const App = () => {
         </div>
       </section>
 
-      <footer className="bg-black pt-32 pb-16 px-6 border-t border-white/5">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-20">
+      <footer className="bg-black pt-32 pb-16 px-4 sm:px-6 lg:px-10 border-t border-white/5">
+        <div className="max-w-screen-2xl mx-auto grid md:grid-cols-4 gap-20">
           <div className="col-span-1 md:col-span-2 space-y-8">
             <div className="flex items-center gap-4">
               <CompanyLogo size="md" />
@@ -414,7 +414,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto mt-32 pt-12 border-t border-white/5 text-center">
+        <div className="max-w-screen-2xl mx-auto mt-32 pt-12 border-t border-white/5 text-center">
           <p className="text-[9px] font-black text-white/20 uppercase tracking-[0.5em] leading-relaxed">
             © 2024 PESO POR PREMIO RD. EL SORTEO MÁS TRANSPARENTE DEL PAÍS. <br />
             PROHIBIDA LA VENTA A MENORES DE 18 AÑOS.
